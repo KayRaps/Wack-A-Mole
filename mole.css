@@ -26,3 +26,15 @@ body {
     background-image: url("./pipe.png");
     background-size: cover;
 }
+
+#board div img {
+    /* all image tags inside the tile div tags */
+    width: 100px;
+    height: 100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
