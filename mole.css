@@ -18,3 +18,11 @@ body {
     border: 3px solid whitesmoke;
     border-radius: 28px;
 }
+
+#board div {
+    /* board = 540*540, divide into 3*3 tiles --> 180*180 per div */
+    width: 180px;
+    height: 180px;
+    background-image: url("./pipe.png");
+    background-size: cover;
+}
